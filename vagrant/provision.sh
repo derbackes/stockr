@@ -33,10 +33,6 @@ apt-add-repository -y ppa:chris-lea/node.js
 apt-get update
 sudo apt-get install -y nodejs
 
-# Place the install script for the vagrant user
-cp /var/shared/install-backend.sh /usr/bin/install-backend.sh
-chmod +x /usr/bin/install-backend.sh
-
 # Create the log directory
 mkdir -p /var/log/stockr/
 chown vagrant:vagrant /var/log/stockr/
