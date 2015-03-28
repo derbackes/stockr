@@ -36,3 +36,6 @@ sudo apt-get install -y nodejs
 # Create the log directory
 mkdir -p /var/log/stockr/
 chown vagrant:vagrant /var/log/stockr/
+
+# Add Loopback to the system
+sudo npm install -g strongloop
