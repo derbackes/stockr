@@ -1,6 +1,9 @@
 # ignore Vagrant boxes
 vagrant/.vagrant
 
+#ignore coffeescript
+*.coffee
+
 # Logs
 logs
 *.log
